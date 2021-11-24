@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');
+  }
+  /*  Specimen
+      font-family: 'Bebas Neue', cursive;
+      font-family: 'Open Sans', sans-serif; */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+  }
+  image {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font: 60px 'Bebas Neue', cursive;
+    letter-spacing: 5.7px;
+    font-weight: normal;
+  }
+  h2 {
+    font: bold 18px/25px 'Open Sans', sans-serif;
+    letter-spacing: 2.3px;
+    color: #48555B;
+    margin-bottom: 0;
+  }
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  .button_blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    max-width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    text-decoration: none;
+    color: white;
+    font: bold 13px/0.5px 'Open Sans', sans-serif;
+    border: 0;
+    cursor: pointer;
+  }
+  .header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: url(../img/header.png) center no-repeat;
+    min-height: 769px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .header_container img {
+    margin-top: 38px;
+  }
+  .header_name * {
+    margin: 0;
+    padding: 0;
+  }
+  .header_name {
+    padding-top: 70px;
+  }
+  .header_name p {
+    font: normal 600 16px 'Open Sans', sans-serif;
+
+  }
+  .header_container span {
+    font: normal 600 11px 'Open Sans', sans-serif;
+    letter-spacing: 3.7px;
+    margin-bottom: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+
+
+@import "desktop.less";
+@import "mobile.less";
