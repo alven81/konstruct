@@ -135,18 +135,19 @@
         justify-content: space-between;
     }
 
+    .about_main * {
+        display: inline-block;
+    }
+
     .about_main {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .about_main * {
-        display: inline-block;
-    }
-
     .about_main div:first-child {
-        max-width: 470px;
+        // max-width: 470px;
+        max-width: 49%;
     }
 
     .about_main div:first-child b {
@@ -176,9 +177,10 @@
     .about_main div:last-child {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: flex-end;
         gap: 20px;
+        max-width: 49%;
     }
 
     .about_main div:last-child span {
@@ -302,11 +304,10 @@
 
     .git_container strong {
         display: block;
-        padding-top: 120px;
+        padding-top: 30px;
     }
-
     .git_container a {
-        display: inline-block;
+        display: inline-flex;
         text-align: center;
         margin-top: 35px;
     }
